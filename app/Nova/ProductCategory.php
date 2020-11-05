@@ -4,6 +4,11 @@ namespace App\Nova;
 
 use Illuminate\Http\Request;
 use Laravel\Nova\Fields\ID;
+use Laravel\Nova\Fields\Text;
+use Laravel\Nova\Fields\Textarea;
+use Laravel\Nova\Fields\Slug;
+use Laravel\Nova\Fields\Image;
+use Laravel\Nova\Fields\HasMany;
 use Laravel\Nova\Http\Requests\NovaRequest;
 
 class ProductCategory extends Resource
@@ -15,12 +20,16 @@ class ProductCategory extends Resource
      */
     public static $model = \App\Models\ProductCategory::class;
 
+    public static function label() {
+
+     return 'Categorías de Producto';
+    }
     /**
      * The single value that should be used to represent the resource when being displayed.
      *
      * @var string
      */
-    public static $title = 'id';
+    public static $title = 'name';
 
     /**
      * The columns that should be searched.
@@ -41,6 +50,11 @@ class ProductCategory extends Resource
     {
         return [
             ID::make(__('ID'), 'id')->sortable(),
+            Text::make('Nombre', 'name')->required()->sortable(),
+            Slug::make('Slug', 'slug')->from('name'),
+            Textarea::make('Descripción','description')->required()->alwaysShow(),
+            Image::make('Imagen','image')->disk('public'),
+            HasMany::make('Products'),
         ];
     }
 

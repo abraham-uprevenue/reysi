@@ -4,6 +4,13 @@ namespace App\Nova;
 
 use Illuminate\Http\Request;
 use Laravel\Nova\Fields\ID;
+use Laravel\Nova\Fields\Text;
+use Laravel\Nova\Fields\Textarea;
+use Laravel\Nova\Fields\Slug;
+use Laravel\Nova\Fields\Currency;
+use Laravel\Nova\Fields\Number;
+use Laravel\Nova\Fields\Image;
+use Laravel\Nova\Fields\BelongsTo;
 use Laravel\Nova\Http\Requests\NovaRequest;
 
 class Product extends Resource
@@ -15,12 +22,17 @@ class Product extends Resource
      */
     public static $model = \App\Models\Product::class;
 
+    public static function label() {
+
+        return 'Productos';
+       }
+
     /**
      * The single value that should be used to represent the resource when being displayed.
      *
      * @var string
      */
-    public static $title = 'id';
+    public static $title = 'name';
 
     /**
      * The columns that should be searched.
@@ -41,6 +53,13 @@ class Product extends Resource
     {
         return [
             ID::make(__('ID'), 'id')->sortable(),
+            Text::make('Nombre', 'name')->required()->sortable(),
+            Slug::make('Slug', 'slug')->from('name'),
+            Textarea::make('Descripción','description')->required(),
+            Currency::make('Precio','price')->required(),
+            Number::make('Cantidad en inventario','inventory'),
+            Image::make('Imagen','image')->disk('public'),
+            BelongsTo::make('Categoria', 'product_category','App\Nova\ProductCategory'),
         ];
     }
 

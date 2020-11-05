@@ -15,6 +15,11 @@ class Client extends Resource
      */
     public static $model = \App\Models\Client::class;
 
+    public static function label() {
+
+        return 'Clientes';
+       }
+
     /**
      * The single value that should be used to represent the resource when being displayed.
      *
