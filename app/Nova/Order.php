@@ -4,23 +4,24 @@ namespace App\Nova;
 
 use Illuminate\Http\Request;
 use Laravel\Nova\Fields\ID;
-use Laravel\Nova\Fields\Text;
-use Laravel\Nova\Fields\HasMany;
+use Laravel\Nova\Fields\BelongsTo;
 use Laravel\Nova\Fields\BelongsToMany;
+use Laravel\Nova\Fields\Textarea;
+use Laravel\Nova\Fields\Number;
 use Laravel\Nova\Http\Requests\NovaRequest;
 
-class Client extends Resource
+class Order extends Resource
 {
     /**
      * The model the resource corresponds to.
      *
      * @var string
      */
-    public static $model = \App\Models\Client::class;
+    public static $model = \App\Models\Order::class;
 
     public static function label() {
 
-        return 'Clientes';
+        return 'Pedidos';
        }
 
     /**
@@ -28,7 +29,7 @@ class Client extends Resource
      *
      * @var string
      */
-    public static $title = 'name';
+    public static $title = 'id';
 
     /**
      * The columns that should be searched.
@@ -49,11 +50,16 @@ class Client extends Resource
     {
         return [
             ID::make(__('ID'), 'id')->sortable(),
-            Text::make('Nombre','name')->sortable()->required(),
-            Text::make('Teléfono','phone')->rules('required','digits:10'),
-            Text::make('Correo','email')->required(),
-            HasMany::make('Orders'),
-            BelongsToMany::make('Companies'),
+            Textarea::make('Comentarios','comments'),
+            BelongsToMany::make('Products')->searchable()
+                ->fields(function(){
+                    return [
+                        Number::make('Cantidad','quantity')
+                        >displayUsing(function($field) {})
+                    ];
+                }),
+            BelongsTo::make('Client'),
+            
         ];
     }
 

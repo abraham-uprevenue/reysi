@@ -13,4 +13,8 @@ class Product extends Model
     {
         return $this->belongsTo(ProductCategory::class, 'product_categories_id');
     }
+
+    public function orders() {
+        return $this->belongsToMany(Order::class)>withPivot('quantity');
+    }
 }

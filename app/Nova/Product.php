@@ -58,7 +58,7 @@ class Product extends Resource
             Textarea::make('Descripción','description')->required(),
             Currency::make('Precio','price')->required(),
             Number::make('Cantidad en inventario','inventory'),
-            Image::make('Imagen','image')->disk('public'),
+            Image::make('Imagen','image')->disk('public')->hideFromIndex(),
             BelongsTo::make('Categoria', 'product_category','App\Nova\ProductCategory'),
         ];
     }
