@@ -14,7 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $products = App\Models\Product::take(3)->latest()->get();
+    return view('welcome', [
+        'products' => $products
+    ]);
 });
 
 Auth::routes();
