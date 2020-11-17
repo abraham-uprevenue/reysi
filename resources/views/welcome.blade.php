@@ -22,27 +22,15 @@
 				</header>
 				<div class="container">
 					<div class="row">
+					@foreach ($products as $product)
 						<div class="4u">
 							<section class="special box">
-								<i class="icon fa-area-chart major"></i>
-								<h3>Justo placerat</h3>
-								<p>Eu non col commodo accumsan ante mi. Commodo consectetur sed mi adipiscing accumsan ac nunc tincidunt lobortis.</p>
+							<a href="#" class="image fit"><img src="storage/app/public/{{ $product->image }}" alt="" /></a>
+								<h3>{{ $product->name }}</h3>
+								<p>{{ $product->description }}</p>
 							</section>
 						</div>
-						<div class="4u">
-							<section class="special box">
-								<i class="icon fa-refresh major"></i>
-								<h3>Blandit quis curae</h3>
-								<p>Eu non col commodo accumsan ante mi. Commodo consectetur sed mi adipiscing accumsan ac nunc tincidunt lobortis.</p>
-							</section>
-						</div>
-						<div class="4u">
-							<section class="special box">
-								<i class="icon fa-cog major"></i>
-								<h3>Amet sed accumsan</h3>
-								<p>Eu non col commodo accumsan ante mi. Commodo consectetur sed mi adipiscing accumsan ac nunc tincidunt lobortis.</p>
-							</section>
-						</div>
+					@endforeach
 					</div>
 				</div>
 			</section>
