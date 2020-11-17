@@ -70,8 +70,8 @@
 							<h2>Ponte en contacto</h2>
 							<p>Blandit nunc tempor lobortis nunc non. Mi accumsan. Justo aliquet massa adipiscing cubilia eu accumsan id. Arcu accumsan faucibus vis ultricies adipiscing ornare ut. Mi accumsan justo aliquet.</p>
 							<ul class="icons">
-                                <li><a href="#" class="icon fa-phone"><span class="label">Teléfono</span></a></li>
-                                <li><a href="#" class="icon fa-envelope"><span class="label">Correo</span></a></li>
+                                <li><a href="tel:528717159986" class="icon fa-phone"><span class="label">Teléfono</span></a></li>
+                                <li><a href="mailto:proveedorareysi@hotmail.com" class="icon fa-envelope"><span class="label">Correo</span></a></li>
 								<li><a href="https://www.facebook.com/Proveedora-REYSI-237512403124458" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
 								<li><a href="https://www.instagram.com/proveedora.reysi/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
 							</ul>
