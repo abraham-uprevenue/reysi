@@ -54,9 +54,9 @@ class Product extends Resource
         return [
             ID::make(__('ID'), 'id')->sortable(),
             Text::make('Nombre', 'name')->required()->sortable(),
-            Slug::make('Slug', 'slug')->from('name'),
+            Slug::make('Slug', 'slug')->from('name')->hideFromIndex(),
             Textarea::make('Descripción','description')->required(),
-            Currency::make('Precio','price')->required(),
+            Number::make('Precio unitario','price')->required(),
             Number::make('Cantidad en inventario','inventory'),
             Image::make('Imagen','image')->disk('public')->hideFromIndex(),
             BelongsTo::make('Categoria', 'product_category','App\Nova\ProductCategory'),

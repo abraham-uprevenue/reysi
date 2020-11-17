@@ -55,7 +55,7 @@ class Order extends Resource
                 ->fields(function(){
                     return [
                         Number::make('Cantidad','quantity')
-                        >displayUsing(function($field) {})
+                        ->displayUsing(function($field) {})
                     ];
                 }),
             BelongsTo::make('Client'),
