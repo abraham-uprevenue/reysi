@@ -504,6 +504,11 @@
 				
 			}
 
+			.image.fit.left img {
+				display: block;
+				width: 50%;
+			}
+
 /* List */
 
 	ol {

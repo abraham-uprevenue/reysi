@@ -7,11 +7,17 @@
 					<p>{{ $product->description }}</p>
 				</header>
 				<div class="container">
-					<a class="image fit left"><img src="/storage/{{ $product->image }}" alt="" /></a>
-					<p>{{ $product->description }}</p>
-					<p>Disponibilidad: {{ $product->inventory }} disponibles</p>
-					<h2>$ {{ $product->price }}</h2>
-					<a href="#" class="button big special">Leer más</a>
+					<div class="row">
+						<div class="6u">
+							<a class="image fit"><img src="/storage/{{ $product->image }}" alt="" /></a>
+						</div>
+						<div class="6u">
+							<p>{{ $product->description }}</p>
+							<p>Disponibilidad: {{ $product->inventory }} disponibles</p>
+							<h2>$ {{ $product->price }}</h2>
+							<a href="#" class="button big special">Leer más</a>
+						</div>
+					</div>
 				</div>
     </section>
 @endsection
