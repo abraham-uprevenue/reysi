@@ -9,8 +9,7 @@ class ProductController extends Controller
 {
     public function show($slug)
     {
-        $product = Product::find($slug);
-
+        $product = Product::where('slug', $slug)->first();
         return view('products.show', ['product' => $product]);
     }
 }

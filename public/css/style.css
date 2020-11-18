@@ -480,6 +480,12 @@
 			width: 100%;
 		}
 
+		.image.fit.left {
+			display: block;
+			margin: 0 0 2em 0;
+			width: 50%;
+		}
+
 			.image.fit img {
 				display: block;
 				width: 100%;
