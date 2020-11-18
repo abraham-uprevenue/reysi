@@ -3,7 +3,7 @@
 @section ('content')
 
         <!-- Banner -->
-			<section id="banner">
+			<section id="banner" style="background-image: url('/images/banner.jpg')">
 				<div class="inner">
 					<h2>Somos Reysi</h2>
 					<p>Productos para el hogar, blancos y novedades </p>

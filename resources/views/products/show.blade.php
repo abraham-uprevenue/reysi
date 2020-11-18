@@ -1,6 +1,14 @@
 @extends ('layout')
 
 @section ('content')
+
+<!-- Banner -->
+<section id="banner" style="background-image: url('/images/banner2.jpg')">
+				<div class="inner">
+				<h2>{{ $product->name }} </h2>
+				</div>
+			</section>		
+
     <section id="two" class="wrapper style1">
 				<header class="major">
 					<h2>{{ $product->name }} </h2>

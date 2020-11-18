@@ -26,3 +26,6 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 Route::get('/catalogo', [App\Http\Controllers\ProductController::class, 'index']);
 Route::get('/productos/{producto}', [App\Http\Controllers\ProductController::class, 'show']);
+
+Route::view ('/about', 'about');
+

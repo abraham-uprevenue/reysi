@@ -1,6 +1,14 @@
 @extends ('layout')
 
 @section ('content')
+
+<!-- Banner -->
+<section id="banner" style="background-image: url('/images/banner2.jpg')">
+				<div class="inner">
+					<h2>Catálogo</h2>
+				</div>
+			</section>		
+
 <div class="row" style="padding:75px;">
     @foreach ($products as $product)
 		<div class="3u">

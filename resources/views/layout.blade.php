@@ -29,6 +29,7 @@
 				<nav id="nav">
 					<ul>
 						<li><a href="/">Inicio</a></li>
+						<li><a href="/about">Nosotros</a></li>
 						<!-- <li><a href="left-sidebar.html">Left Sidebar</a></li>
 						<li><a href="right-sidebar.html">Right Sidebar</a></li>
 						<li><a href="no-sidebar.html">No Sidebar</a></li> -->
