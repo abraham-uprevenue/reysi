@@ -66,18 +66,21 @@
 								</div>
 							</div>
 						</div>
-						<div class="6u">
-							<h2>Ponte en contacto</h2>
+						<div class="3u">
+							<h3>Ponte en contacto</h3>
 							<p>Envíanos un mensaje o contactános a traves de nuestas redes sociales</p>
 							<ul class="icons">
                                 <li><a href="tel:528717159986" class="icon fa-phone"><span class="label">Teléfono</span></a></li>
                                 <li><a href="mailto:proveedorareysi@hotmail.com" class="icon fa-envelope"><span class="label">Correo</span></a></li>
 								<li><a href="https://www.facebook.com/Proveedora-REYSI-237512403124458" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
                                 <li><a href="https://www.instagram.com/proveedora.reysi/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-                                <li><a href="https://goo.gl/maps/w7zW86esBBY9YbiR8" class="icon fa-map-marker"><span class="label">Ubicación</span></a></li>
-							</ul>
+								<li><a href="https://goo.gl/maps/w7zW86esBBY9YbiR8" class="icon fa-map-marker"><span class="label">Ubicación</span></a></li>
+								</ul>
 						</div>
-					</div>
+							<div class="3u">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.95019285003!2d-103.51037668498287!3d25.573323783722653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x868fd84867ee0001%3A0x43088d3e2effaeec!2sCoral%20490%2C%20La%20Esperanza%2C%2035020%20G%C3%B3mez%20Palacio%2C%20Dgo.!5e0!3m2!1ses-419!2smx!4v1605729502989!5m2!1ses-419!2smx" width="250" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+							</div>
+						</div>
 					<ul class="copyright">
 						<li>&copy; Copyright. Proveedora Reysi</li>
 						<li>Design: <a href="http://uprevenue.mx">Uprevenue.mx</a></li>
