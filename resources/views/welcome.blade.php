@@ -39,28 +39,28 @@
 		<!-- Two -->
 			<section id="two" class="wrapper style2">
 				<header class="major">
-					<h2>Commodo accumsan aliquam</h2>
-					<p>Amet nisi nunc lorem accumsan</p>
+					<h2>Todo lo que buscas en un solo lugar</h2>
+					<p>Lo mejor en electrodomesticos y linea blanca</p>
 				</header>
 				<div class="container">
 					<div class="row">
 						<div class="6u">
 							<section class="special">
-								<a href="#" class="image fit"><img src="images/pic01.jpg" alt="" /></a>
-								<h3>Mollis adipiscing nisl</h3>
-								<p>Eget mi ac magna cep lobortis faucibus accumsan enim lacinia adipiscing metus urna adipiscing cep commodo id. Ac quis arcu amet. Arcu nascetur lorem adipiscing non faucibus odio nullam arcu lobortis. Aliquet ante feugiat. Turpis aliquet ac posuere volutpat lorem arcu aliquam lorem.</p>
+								<a href="#" class="image fit2"><img src="images/pic01.jpg" alt="" /></a>
+								<h3>División Proveedora</h3>
+								<p>Encargada de proveer articulos de cocina, utensilios, blancos, electrodomésticos.  </p>
 								<ul class="actions">
-									<li><a href="#" class="button alt">Learn More</a></li>
+									<li><a href="#" class="button alt">Ir al catálogo</a></li>
 								</ul>
 							</section>
 						</div>
 						<div class="6u">
 							<section class="special">
-								<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
-								<h3>Neque ornare adipiscing</h3>
-								<p>Eget mi ac magna cep lobortis faucibus accumsan enim lacinia adipiscing metus urna adipiscing cep commodo id. Ac quis arcu amet. Arcu nascetur lorem adipiscing non faucibus odio nullam arcu lobortis. Aliquet ante feugiat. Turpis aliquet ac posuere volutpat lorem arcu aliquam lorem.</p>
+								<a href="#" class="image fit2"><img src="images/pic02.jpg" alt="" /></a>
+								<h3>División fabrica</h3>
+								<p>Aquí encontraras productos para el hogar en general tales como electrónica, línea blanca, recamaras, muebles en general.</p>
 								<ul class="actions">
-									<li><a href="#" class="button alt">Learn More</a></li>
+									<li><a href="#" class="button alt">Ir al catálogo</a></li>
 								</ul>
 							</section>
 						</div>
@@ -72,32 +72,16 @@
 			<section id="three" class="wrapper style1">
 				<div class="container">
 					<div class="row">
-						<div class="8u">
-							<section>
-								<h2>Mollis ut adipiscing</h2>
-								<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-								<p>Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit accumsan sapien blandit ac amet faucibus aliquet placerat commodo. Interdum ante aliquet commodo accumsan vis phasellus adipiscing. Ornare a in lacinia. Vestibulum accumsan ac metus massa tempor. Accumsan in lacinia ornare massa amet. Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan commodo odio cubilia ac eu interdum placerat placerat arcu commodo lobortis adipiscing semper ornare pellentesque.</p>
-							</section>
-						</div>
-						<div class="4u">
-							<section>
-								<h3>Magna massa blandit</h3>
-								<p>Feugiat amet accumsan ante aliquet feugiat accumsan. Ante blandit accumsan eu amet tortor non lorem felis semper. Interdum adipiscing orci feugiat penatibus adipiscing col cubilia lorem ipsum dolor sit amet feugiat consequat.</p>
+						<div class="12u">
+							<section> 
+								<h2>Nuestra Empresa</h2>
+								<a href="#" class="image fit2"><img src="images/pic03.jpg" alt="" /></a>
+								<p>Inició en el año de 1970 en la ciudad de Gómez Palacio, Durango, cuando Don Benjamín Reynoso Ibarra y su esposa la Sra. Irene Silva Contreras crearon un negocio de venta de ropa, blancos y novedades. Con el paso del tiempo fueron incrementando sus oportunidades de mercado iniciando a vender medio mayoreo y mayoreo. Tambien se fueron diversificando los productos como hasta el día de hoy. Hasta el año de 1989 se decidió darle a la empresa el nombre comercial de "PROVEEDORA REYSI" que proviene de los apellidos paternos de ambos señores.</p>
 								<ul class="actions">
-									<li><a href="#" class="button alt">Learn More</a></li>
-								</ul>
-							</section>
-							<hr />
-							<section>
-								<h3>Ante sed commodo</h3>
-								<ul class="alt">
-									<li><a href="#">Erat blandit risus vis adipiscing</a></li>
-									<li><a href="#">Tempus ultricies faucibus amet</a></li>
-									<li><a href="#">Arcu commodo non adipiscing quis</a></li>
-									<li><a href="#">Accumsan vis lacinia semper</a></li>
-								</ul>
+									<li><a href="#" class="button alt">Conocer más</a></li>
 							</section>
 						</div>
+						
 					</div>
 				</div>
             </section>

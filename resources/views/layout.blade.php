@@ -52,7 +52,7 @@
 										<li><a href="#">Contacto</a></li>
 										<li><a href="#">Devoluciones</a></li>
                                         <li><a href="#">Privacidad</a></li>
-                                        <li><a href="#">Térmonos y Condiciones</a></li>
+                                        <li><a href="#">Términos y Condiciones</a></li>
 									</ul>
 								</div>
 								<div class="6u">

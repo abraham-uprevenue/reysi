@@ -479,7 +479,11 @@
 			margin: 0 0 2em 0;
 			width: 100%;
 		}
-
+		.image.fit2 {
+			display: block;
+			margin: 0 0 2em 0;
+			width: 100%;
+		}
 		.image.fit.left {
 			display: block;
 			margin: 0 0 2em 0;
@@ -490,6 +494,14 @@
 			.image.fit img {
 				display: block;
 				width: 100%;
+			}
+
+			.image.fit2 img {
+				display: block;
+				width: 50%;
+				margin-left: auto;
+				margin-right: auto;
+				
 			}
 
 /* List */
