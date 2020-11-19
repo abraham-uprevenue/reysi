@@ -21,8 +21,9 @@
 		</section>
 	</div>
 	<div class="8u">
+	@foreach($products->split($products->count()/3) as $row)
 	<div class="row">
-	@foreach ($products as $product)
+	@foreach ($row as $product)
 		<div class="4u">
 			<section class="special box">
 				<a href="/productos/{{ $product->slug }}" class="image fit"><img src="/storage/{{ $product->image }}" width="150" heigth="150"/></a>
@@ -32,7 +33,8 @@
 			</section>
 		</div>
 	@endforeach
-	</div>					
+	</div>
+	@endforeach					
 	</div>
     
 </div>
