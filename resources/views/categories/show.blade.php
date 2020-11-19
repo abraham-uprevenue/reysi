@@ -21,7 +21,7 @@
 		</section>
 	</div>
 	<div class="8u">
-	@foreach($products->split($products->count()/3) as $row)
+	@foreach($products->split($products->count()/4) as $row)
 	<div class="row">
 	@foreach ($row as $product)
 		<div class="4u">

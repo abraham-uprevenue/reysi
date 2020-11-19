@@ -30,8 +30,9 @@ Route::get('/productos/{producto}', [App\Http\Controllers\ProductController::cla
 Route::get('/categorias', [App\Http\Controllers\ProductCategoryController::class, 'index']);
 Route::get('/categorias/{categoria}', [App\Http\Controllers\ProductCategoryController::class, 'show']);
 
-Route::view ('/about', 'about');
-Route::view ('/privacy', 'privacy');
-Route::view ('/terms', 'terms');
-Route::view ('/refund', 'refund');
+Route::view ('/nosotros', 'about');
+Route::view ('/privacidad', 'privacy');
+Route::view ('/terminos', 'terms');
+Route::view ('/devoluciones', 'refund');
+Route::view ('/contacto', 'contact');
 
