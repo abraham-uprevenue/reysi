@@ -31,4 +31,7 @@ Route::get('/categorias', [App\Http\Controllers\ProductCategoryController::class
 Route::get('/categorias/{categoria}', [App\Http\Controllers\ProductCategoryController::class, 'show']);
 
 Route::view ('/about', 'about');
+Route::view ('/privacy', 'privacy');
+Route::view ('/terms', 'terms');
+Route::view ('/refund', 'refund');
 

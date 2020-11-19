@@ -30,6 +30,7 @@
 					<ul>
 						<li><a href="/">Inicio</a></li>
 						<li><a href="/about">Nosotros</a></li>
+						<li><a href="/catalogo">Catálogo</a></li>
 						<!-- <li><a href="left-sidebar.html">Left Sidebar</a></li>
 						<li><a href="right-sidebar.html">Right Sidebar</a></li>
 						<li><a href="no-sidebar.html">No Sidebar</a></li> -->
@@ -51,6 +52,7 @@
 									<ul class="alt">
 										<li><a href="/about">Nosotros</a></li>
 										<li><a href="#">Contacto</a></li>
+										<li><a href="#">Catálogo</a></li>
 										<li><a href="#">Devoluciones</a></li>
                                         <li><a href="#">Privacidad</a></li>
                                         <li><a href="#">Términos y Condiciones</a></li>
