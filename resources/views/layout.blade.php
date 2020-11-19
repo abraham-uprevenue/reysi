@@ -49,7 +49,7 @@
 								<div class="6u">
 									<h3>Navega</h3>
 									<ul class="alt">
-										<li><a href="#">Nosotros</a></li>
+										<li><a href="/about">Nosotros</a></li>
 										<li><a href="#">Contacto</a></li>
 										<li><a href="#">Devoluciones</a></li>
                                         <li><a href="#">Privacidad</a></li>
