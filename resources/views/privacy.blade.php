@@ -1,5 +1,7 @@
 @extends ('layout')
 
+@section ('content')
+
  <!-- Banner -->
  <section id="banner" style="background-image: url('/images/banner.jpg')" >
 				<div class="inner">
@@ -7,8 +9,8 @@
 				</div>
 			</section>			
 
-		<!-- Historia -->
-        <section id="three" class="wrapper style2">
+		<!-- Privacidad -->
+        <section id="three" class="wrapper style1">
         <header class="major">
 					<h2></h2>
 				</header>
@@ -46,4 +48,4 @@
 				</div>
             </section>
 
-            
+@endsection            

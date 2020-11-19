@@ -58,6 +58,7 @@
 								<div class="6u">
 									<h3>Información</h3>
 									<ul class="alt">
+									<li><a href="/faq">Preguntas Frecuentes</a></li>
 										<li><a href="/privacidad">Privacidad</a></li>
 										<li><a href="/terminos">Términos y Condiciones</a></li>
 										<li><a href="/devoluciones">Devoluciones</a></li>
