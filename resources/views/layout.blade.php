@@ -78,7 +78,7 @@
 								</ul>
 						</div>
 							<div class="3u">
-								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.95019285003!2d-103.51037668498287!3d25.573323783722653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x868fd84867ee0001%3A0x43088d3e2effaeec!2sCoral%20490%2C%20La%20Esperanza%2C%2035020%20G%C3%B3mez%20Palacio%2C%20Dgo.!5e0!3m2!1ses-419!2smx!4v1605729502989!5m2!1ses-419!2smx" width="250" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.9466747412844!2d-103.51033728550786!3d25.57344082260966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x868fd8486fb3dfa9%3A0x4ae18f7fcd5e2859!2sProveedora%20Reysi!5e0!3m2!1ses-419!2smx!4v1605827894430!5m2!1ses-419!2smx" width="250" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 							</div>
 						</div>
 					<ul class="copyright">
