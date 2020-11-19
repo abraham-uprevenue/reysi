@@ -33,7 +33,7 @@
 						<!-- <li><a href="left-sidebar.html">Left Sidebar</a></li>
 						<li><a href="right-sidebar.html">Right Sidebar</a></li>
 						<li><a href="no-sidebar.html">No Sidebar</a></li> -->
-						<li><a href="/admin-reysi-2020" class="button special">Iniciar Sesion</a></li>
+						<li><a href="/contacto" class="button special">Contacto</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -49,21 +49,18 @@
 								<div class="6u">
 									<h3>Navega</h3>
 									<ul class="alt">
-										<li><a href="/about">Nosotros</a></li>
-										<li><a href="#">Contacto</a></li>
-										<li><a href="#">Catálogo</a></li>
-										<li><a href="#">Devoluciones</a></li>
-                                        <li><a href="#">Privacidad</a></li>
-                                        <li><a href="#">Términos y Condiciones</a></li>
+										<li><a href="/">Inicio</a></li>
+										<li><a href="/nosotros">Nosotros</a></li>
+										<li><a href="/contacto">Contacto</a></li>
+										<li><a href="/catalogo">Catálogo</a></li>
 									</ul>
 								</div>
 								<div class="6u">
-									<h3>Categorías</h3>
+									<h3>Información</h3>
 									<ul class="alt">
-										<li><a href="#">Nascetur nunc varius</a></li>
-										<li><a href="#">Vis faucibus sed tempor</a></li>
-										<li><a href="#">Massa amet lobortis vel</a></li>
-										<li><a href="#">Nascetur nunc varius</a></li>
+										<li><a href="/privacidad">Privacidad</a></li>
+										<li><a href="/terminos">Términos y Condiciones</a></li>
+										<li><a href="/devoluciones">Devoluciones</a></li>
 									</ul>
 								</div>
 							</div>
