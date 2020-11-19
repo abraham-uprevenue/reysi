@@ -449,6 +449,16 @@
 		}
 
 /* Image */
+	.logo {
+		border: 0;
+		display: inline-block;
+		position: relative;
+	}
+		
+		.logo img {
+			padding: 10px 0px;
+			width:180px;
+		}
 
 	.image {
 		border-radius: 6px;
@@ -918,7 +928,7 @@
 		background: #fff;
 		color: #555f66;
 		cursor: default;
-		height: 3em;
+		height: 4em;
 		left: 0;
 		line-height: 3em;
 		position: fixed;
@@ -1130,3 +1140,7 @@
 		#footer .icons a {
 			color: #bbb;
 		}
+	
+	.row {
+		margin-bottom: 30px;
+	}
