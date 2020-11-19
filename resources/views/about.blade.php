@@ -1,5 +1,7 @@
 @extends ('layout')
 
+@section ('content')
+
  <!-- Banner -->
  <section id="banner" style="background-image: url('/images/banner.jpg')" >
 				<div class="inner">
@@ -8,7 +10,7 @@
 			</section>			
 
 		<!-- Historia -->
-        <section id="three" class="wrapper style2">
+        <section id="three" class="wrapper style1">
         <header class="major">
 					<h2>Nuestra Historia</h2>
 				</header>
@@ -85,20 +87,4 @@
 				</div>
 			</section>
 
-		<!-- Three 
-			<section id="three" class="wrapper style2">
-				<div class="container">
-					<div class="row">
-						<div class="12u">
-							<section> 
-								<h2></h2>
-								<a href="#" class="image fit2"><img src="images/mapa.jpg" alt="" /></a>
-								<p>Inició en el año de 1970 en la ciudad de Gómez Palacio, Durango, cuando Don Benjamín Reynoso Ibarra y su esposa la Sra. Irene Silva Contreras crearon un negocio de venta de ropa, blancos y novedades. Con el paso del tiempo fueron incrementando sus oportunidades de mercado iniciando a vender medio mayoreo y mayoreo. Tambien se fueron diversificando los productos como hasta el día de hoy. Hasta el año de 1989 se decidió darle a la empresa el nombre comercial de "PROVEEDORA REYSI" que proviene de los apellidos paternos de ambos señores.</p>
-								<ul class="actions">
-									<li><a href="#" class="button alt">Conocer más</a></li>
-							</section>
-						</div>
-						
-					</div>
-				</div>
-            </section> -->
+@endsection

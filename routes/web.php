@@ -35,4 +35,5 @@ Route::view ('/privacidad', 'privacy');
 Route::view ('/terminos', 'terms');
 Route::view ('/devoluciones', 'refund');
 Route::view ('/contacto', 'contact');
+Route::view ('/faq', 'faq');
 

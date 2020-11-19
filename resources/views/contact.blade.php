@@ -9,7 +9,7 @@
 		</div>
 </section>
 
-<section class="wrapper style2">
+<section class="wrapper style1">
     <header class="major">
         <h2>Ponte en contacto con nosotros</h2>
     </header>
