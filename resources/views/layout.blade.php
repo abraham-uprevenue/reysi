@@ -1,16 +1,11 @@
 <!DOCTYPE HTML>
-<!--
-	Ion by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
+
 <html>
 	<head>
 		<title>Proveedora Reysi</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
-		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
 		<script src="/js/jquery.min.js"></script>
 		<script src="/js/skel.min.js"></script>
 		<script src="/js/skel-layers.min.js"></script>
@@ -84,7 +79,6 @@
 					<ul class="copyright">
 						<li>&copy; Copyright. Proveedora Reysi</li>
 						<li>Design: <a href="http://uprevenue.mx">Uprevenue.mx</a></li>
-						<!-- <li>Images: <a href="http://unsplash.com">Unsplash</a></li> -->
 					</ul>
 				</div>
 			</footer>
