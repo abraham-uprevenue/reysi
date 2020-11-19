@@ -34,4 +34,3 @@ Route::view ('/about', 'about');
 Route::view ('/privacy', 'privacy');
 Route::view ('/terms', 'terms');
 Route::view ('/refund', 'refund');
-
