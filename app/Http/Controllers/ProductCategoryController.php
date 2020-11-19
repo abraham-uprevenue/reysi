@@ -18,8 +18,9 @@ class ProductCategoryController extends Controller
 
     public function show($slug)
     {
+        $categories = ProductCategory::latest()->get();
         $category = ProductCategory::where('slug', $slug)->first();
         $products = Product::where('product_categories_id', $category->id)->latest()->get();
-        return view('categories.show', ['products' => $products])->with('category',$category);
+        return view('categories.show', ['products' => $products])->with('category',$category)->with('categories',$categories);
     }
 }
