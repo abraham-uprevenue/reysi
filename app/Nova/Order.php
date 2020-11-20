@@ -19,6 +19,8 @@ class Order extends Resource
      */
     public static $model = \App\Models\Order::class;
 
+    public static $group = 'Clientes';
+
     public static function label() {
 
         return 'Pedidos';

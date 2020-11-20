@@ -17,6 +17,8 @@ class Company extends Resource
      */
     public static $model = \App\Models\Company::class;
 
+    public static $group = 'Clientes';
+
     public static function label() {
 
         return 'Empresas';

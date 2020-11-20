@@ -18,6 +18,8 @@ class Client extends Resource
      */
     public static $model = \App\Models\Client::class;
 
+    public static $group = 'Clientes';
+
     public static function label() {
 
         return 'Clientes';
