@@ -11,7 +11,7 @@
 
 <div class="row" style="padding:75px;">
 	<div class="4u">
-		<section>
+		<section id="categorySidebar">
 			<h3>Categorías</h3>
 				<ul class="alt">
 					@foreach ($categories as $category)
