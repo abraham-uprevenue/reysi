@@ -14,7 +14,7 @@
 				</div>
 			</section>			
 
-		<!-- One -->
+		<!-- Sub Hero -->
         <section id="one" class="wrapper style1">
 				<header class="major">
 					<h2>Nuestro Catálogo</h2>
