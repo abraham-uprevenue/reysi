@@ -20,6 +20,8 @@ class ProductCategory extends Resource
      */
     public static $model = \App\Models\ProductCategory::class;
 
+    public static $group = 'Productos';
+
     public static function label() {
 
      return 'Categorías de Producto';
@@ -37,7 +39,7 @@ class ProductCategory extends Resource
      * @var array
      */
     public static $search = [
-        'id',
+        'name',
     ];
 
     /**

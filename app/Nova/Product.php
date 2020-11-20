@@ -22,6 +22,8 @@ class Product extends Resource
      */
     public static $model = \App\Models\Product::class;
 
+    public static $group = 'Productos';
+
     public static function label() {
 
         return 'Productos';
@@ -40,7 +42,7 @@ class Product extends Resource
      * @var array
      */
     public static $search = [
-        'id',
+        'name',
     ];
 
     /**
