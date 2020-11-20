@@ -10,5 +10,5 @@ return [
     /**
      * The group associated with the resource
      */
-    'roleResourceGroup' => 'Other',
+    'roleResourceGroup' => 'Administración',
 ];

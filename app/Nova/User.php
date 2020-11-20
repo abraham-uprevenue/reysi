@@ -19,6 +19,8 @@ class User extends Resource
      */
     public static $model = \App\Models\User::class;
 
+    public static $group = 'Administración';
+
 
     public static function label() {
 
