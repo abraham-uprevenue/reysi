@@ -57,6 +57,7 @@ class Product extends Resource
             ID::make(__('ID'), 'id')->sortable(),
             Text::make('Nombre', 'name')->required()->sortable(),
             Slug::make('Slug', 'slug')->from('name')->hideFromIndex(),
+            Text::make('SKU', 'sku')->sortable(),
             Textarea::make('Descripción','description')->required(),
             Number::make('Precio unitario','price')->required(),
             Number::make('Cantidad en inventario','inventory'),
