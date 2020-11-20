@@ -21,7 +21,7 @@
 
 		<!-- Header -->
 			<header id="header" class="skel-layers-fixed">
-				<a href="/" class="logo"><img src="images/logo.png" alt="Proveedora Reysi" /></a>
+				<a href="/" class="logo"><img src="/images/logo.png" alt="Proveedora Reysi" /></a>
 				<nav id="nav">
 					<ul>
 						<li><a href="/">Inicio</a></li>
