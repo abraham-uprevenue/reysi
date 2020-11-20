@@ -21,12 +21,12 @@
 		</section>
 	</div>
 	<div class="8u">
-	@foreach($products->split($products->count()/4) as $row)
+	@foreach($products->split($products->count()/3) as $row)
 	<div class="row">
 	@foreach ($row as $product)
 		<div class="4u">
-			<section class="special box">
-				<a href="/productos/{{ $product->slug }}" class="image fit"><img src="/storage/{{ $product->image }}" width="150" heigth="150"/></a>
+			<section class="section special">
+				<a href="/productos/{{ $product->slug }}" class="product image"><img src="/storage/{{ $product->image }}" width="150" heigth="150"/></a>
 				<h3>{{ $product->name }}</h3>
 				<p>{{ $product->description }}</p>
 				<a href="/productos/{{ $product->slug }}" class="button special">Ver Producto</a>
