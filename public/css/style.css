@@ -460,20 +460,7 @@
 			padding: 10px 0px;
 			width:180px;
 		}
-
-	.product_image {
-			display: block;
-			margin-left: auto;
-			margin-right: auto;
-			margin-bottom: 10px;
-			width: 50%;
-		}
-
-		.product_image img {
-			width: 150px;
-			height: 150px;
-			object-fit: cover;
-		}
+	
 
 	.image {
 		border-radius: 6px;
