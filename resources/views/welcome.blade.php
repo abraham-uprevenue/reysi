@@ -5,7 +5,7 @@
         <!-- Banner -->
 			<section id="banner" style="background-image: url('/images/banner.jpg')">
 				<div class="inner">
-					<h2>Somos Reysi</h2>
+					<h2>Proveedora Reysi</h2>
 					<p>Productos para el hogar, blancos y novedades </p>
 					<ul class="actions">
 						<li><a href="/admin-reysi-2020" class="button big special">Iniciar Sesion</a></li>
