@@ -26,7 +26,7 @@
 	@foreach ($row as $product)
 		<div class="4u">
 			<section class="section special">
-				<a href="/productos/{{ $product->slug }}" class="product image"><img src="/storage/{{ $product->image }}" width="150" heigth="150"/></a>
+				<a href="/productos/{{ $product->slug }}" class="product_image"><img src="/storage/{{ $product->image }}" width="150" heigth="150"/></a>
 				<h3>{{ $product->name }}</h3>
 				<p>{{ $product->description }}</p>
 				<a href="/productos/{{ $product->slug }}" class="button special">Ver Producto</a>
