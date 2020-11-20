@@ -11,7 +11,7 @@
 
 		<!-- Historia -->
         <section id="three" class="wrapper style1">
-        <header class="major">
+       			 <header class="major">
 					<h2>Nuestra Historia</h2>
 				</header>
 				<div class="container">
@@ -24,7 +24,7 @@
                         </div>
                         <div class="6u">
 							<section style="padding: 20px 0"> 
-                            <a href="#" class="image fit"><img src="images/logo.png" alt="" /></a>
+                            	<a href="#" class="image fit"><img src="images/logo.png" alt="" /></a>
 							</section>
 						</div>
 						
