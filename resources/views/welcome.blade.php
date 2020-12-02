@@ -34,7 +34,7 @@
 					@endforeach
 					</div>
 				</div>
-			</section>
+		</section>
 			
 		<!-- Divisiones -->
 			<section id="two" class="wrapper style2">
@@ -45,8 +45,8 @@
 				<div class="container">
 					<div class="row">
 						<div class="6u">
-							<section class="special">
-								<a href="#" class="image fit2"><img src="images/pic01.jpg" alt="" /></a>
+							<section style="padding: 0 50px" class="special">
+								<a href="#" style="padding: 0 50px" class="image fit"><img src="images/pic01.jpg" alt="" /></a>
 								<h3>División Proveedora</h3>
 								<p>Encargada de proveer articulos de cocina, utensilios, blancos, electrodomésticos.  </p>
 								<ul class="actions">
@@ -55,10 +55,10 @@
 							</section>
 						</div>
 						<div class="6u">
-							<section class="special">
-								<a href="#" class="image fit2"><img src="images/pic02.jpg" alt="" /></a>
+							<section style="padding: 0 50px" class="special">
+								<a href="#" style="padding: 0 50px" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
 								<h3>División fabrica</h3>
-								<p>Aquí encontraras productos para el hogar en general tales como electrónica, línea blanca, recamaras, muebles en general.</p>
+								<p>Aquí encontraras productos para el hogar en general tales como electrónica, línea blanca, muebles en general.</p>
 								<ul class="actions">
 									<li><a href="/catalogo" class="button alt">Ir al catálogo</a></li>
 								</ul>
@@ -81,7 +81,7 @@
                         </div>
                         <div class="4u">
 							<section style="padding: 0 20px"> 
-                            	<a href="#" class="image fit"><img src="images/empresa.jpg" alt="" /></a>
+                            	<a href="#" class="image fit"><img src="images/logoprincipalnaranja.png" alt="" /></a>
 							</section>
 						</div>
 						
