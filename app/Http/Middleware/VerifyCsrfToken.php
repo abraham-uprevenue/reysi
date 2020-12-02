@@ -12,6 +12,7 @@ class VerifyCsrfToken extends Middleware
      * @var array
      */
     protected $except = [
-        //
+        'https://proveedorareysi.com*',
+        'https://127.0.0.1*'
     ];
 }
