@@ -10,7 +10,7 @@
 			</section>			
 
 		<!-- Historia -->
-        <section id="three" class="wrapper style1">
+        <section id="three" class="wrapper style2">
        			 <header class="major">
 					<h2>Nuestra Historia</h2>
 				</header>
@@ -24,7 +24,7 @@
                         </div>
                         <div class="6u">
 							<section style="padding: 20px 0"> 
-                            	<a href="#" class="image fit"><img src="images/logo.png" alt="" /></a>
+                            	<a href="#" class="image fit"><img src="images/logo50.png" alt="" /></a>
 							</section>
 						</div>
 						
