@@ -37,19 +37,3 @@ Route::view ('/devoluciones', 'refund');
 Route::view ('/contacto', 'contact');
 Route::view ('/faq', 'faq');
 
-Route::get('/test', function () {
-    $data['prkey'] = "aac6848394063d4fe75c7f85ad550dcb";
-    $data['columns'] = 'ID CART,CART,NART';
-    $data['filter'] = "CART like 'F %'";
-//Ordenandolos de manera descente por CART
-    $data['sort'] = "CART desc";
-    $curl = curl_init ();
-    curl_setopt($curl, CURLOPT_POST, 1);
-    curl_setopt($curl, CURLOPT_POSTFIELDS, $data);
-    curl_setopt($curl, CURLOPT_URL, "https://proveedorareysi.com/API/v1/Cat01");
-    $result = curl_exec($curl);
-    print_r($result);
-    if (! $result ){die("Connection Failure");}
-    curl_close ($curl );
-});
-
