@@ -8,6 +8,12 @@ use GuzzleHttp\Client;
 
 class PageController extends Controller
 {
+    public function home() {
+        $products = Product::take(3)->latest()->get();
+        return view('welcome', [
+            'products' => $products
+        ]);
+    }
     //
     public function index(\GuzzleHttp\Client $client) {
         // $products = Product::take(3)->latest()->get();

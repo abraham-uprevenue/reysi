@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::redirect('/', '/admin-reysi-2020/login');
+Route::get('/',  [App\Http\Controllers\PageController::class, 'home']);
 
 
 Auth::routes();
