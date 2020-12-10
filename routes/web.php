@@ -12,13 +12,8 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::redirect('/', '/admin-reysi-2020/login');
 
-Route::get('/', function () {
-    $products = App\Models\Product::take(3)->latest()->get();
-    return view('welcome', [
-        'products' => $products
-    ]);
-});
 
 Auth::routes();
 
