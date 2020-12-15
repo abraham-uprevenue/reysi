@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/',  [App\Http\Controllers\PageController::class, 'home']);
+Route::redirect('/', '/admin-reysi-2020/login');
 Route::get('/updates-api',  [App\Http\Controllers\PageController::class, 'index']);
 
 
