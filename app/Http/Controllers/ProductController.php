@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Product;
 use App\Models\ProductCategory;
-
+use App\Models\Article;
 class ProductController extends Controller
 {
 
@@ -24,27 +24,10 @@ class ProductController extends Controller
         $category = ProductCategory::where('id', $product->product_categories_id)->first();
         return view('products.show', ['product' => $product])->with('category',$category);
     }
-
+    //  {"ID_CART":26,"CART":"F-01","NART":"EDREDON CON CORTINAS","CATEGORIA":"BLANCOS","MARCA":"MIAMI","MODELO":null,"COLOR":null,"MEDIDAS":"MATRIMONIAL","PRECIOA":null,"PRECIOB":null,"PRECIOC":null,"PRECIOD":null,"PRECIOE":null,"PRECIOF":null,"EXTENCION":"jpg","PROV":1,"FAB":0,"PROMO":0,"PMES":0}
     public function takeProducts() {
-        $data["prkey"] = "aac6848394063d4fe75c7f85ad550dcb"; //Selecciona columnas
-        //Ordenandolos de manera descente por CART $data[’sort’] = ”CART desc”; 
-        //Ordenandolos de manera descente por CART $data[’sort’] = ”CART desc”;
-        $curl = curl_init();
-        curl_setopt($curl, CURLOPT_POSTFIELDS, $data);
-        curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
-        curl_setopt($curl, CURLOPT_URL, "https://proveedorareysi.com/API/v1/Cat01");
-        $response = curl_getinfo($curl, CURLINFO_HTTP_CODE);
-
-        $output = curl_exec($curl);
-        if(!$output){
-            die("Connection Failure");
-            return "Conection field";
-        }
-        $data = explode("\n", $output);
-        array_shift($data);
-
-        // return response()->json(["data" => "request succes"]);
-        curl_close($curl);
+        $products = Article::all();
+        return $products;
         return response()->json($output);
     }
 }

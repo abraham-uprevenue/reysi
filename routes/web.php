@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::get('/',  [App\Http\Controllers\PageController::class, 'home']);
+Route::get('/updates-api',  [App\Http\Controllers\PageController::class, 'index']);
 
 
 Auth::routes();

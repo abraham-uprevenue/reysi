@@ -10,6 +10,7 @@ use Laravel\Nova\Fields\Slug;
 use Laravel\Nova\Fields\Currency;
 use Laravel\Nova\Fields\Number;
 use Laravel\Nova\Fields\Image;
+use Laravel\Nova\Fields\Boolean;
 use Laravel\Nova\Fields\BelongsTo;
 use Laravel\Nova\Http\Requests\NovaRequest;
 
@@ -20,7 +21,7 @@ class Product extends Resource
      *
      * @var string
      */
-    public static $model = \App\Models\Product::class;
+    public static $model = \App\Models\Article::class;
 
     public static $group = 'Productos';
 
@@ -42,7 +43,7 @@ class Product extends Resource
      * @var array
      */
     public static $search = [
-        'name',
+        'NART',
     ];
 
     /**
@@ -53,16 +54,35 @@ class Product extends Resource
      */
     public function fields(Request $request)
     {
+        //{\"ID_CART\":26,\"CART\":\"F-01\",\"NART\":\"EDREDON CON CORTINAS\",\"CATEGORIA\":\"BLANCOS\",\"MARCA\":\"MIAMI\",\"MODELO\":null,\"COLOR\":null,\"∑\":\"MATRIMONIAL\",\"PRECIOA\":null,\"PRECIOB\":null,\"PRECIOC\":null,\"PRECIOD\":null,\"PRECIOE\":null,\"PRECIOF\":null,\"EXTENCION\":\"jpg\",\"PROV\":1,\"FAB\":0,\"PROMO\":0,\"PMES\":0,\"IDAct\":1}
         return [
             ID::make(__('ID'), 'id')->sortable(),
-            Text::make('Nombre', 'name')->required()->sortable(),
-            Slug::make('Slug', 'slug')->from('name')->hideFromIndex(),
-            Text::make('SKU', 'sku')->sortable(),
-            Textarea::make('Descripción','description')->required(),
-            Number::make('Precio unitario','price')->required(),
-            Number::make('Cantidad en inventario','inventory'),
+            Text::make('CART', 'CART')->required()->sortable(),
+            Text::make('NOMBRE', 'NART')->sortable()->required(),
+            Text::make('CATEGORIA', 'CATEGORIA')->sortable(),
+            Text::make('MARCA', 'MARCA')->sortable(),
+            Text::make('MODELO', 'MODELO')->sortable(),
+            Text::make('COLOR', 'COLOR')->sortable(),
+            Text::make('MEDIDAS', 'MEDIDAS')->sortable(),
+            Number::make('PRECIOA', 'PRECIOA'),
+            Number::make('PRECIOB', 'PRECIOB'),
+            Number::make('PRECIOC', 'PRECIOC'),
+            Number::make('PRECIOD', 'PRECIOD'),
+            Number::make('PRECIOE', 'PRECIOE'),
+            Number::make('PRECIOF', 'PRECIOF'),
+            Boolean::make('PROV')
+            ->trueValue('1')
+            ->falseValue('0'),
+            Boolean::make('FAB')
+            ->trueValue('1')
+            ->falseValue('0'),
+            Boolean::make('PROMO')
+            ->trueValue('1')
+            ->falseValue('0'),
+            Boolean::make('PMES')
+            ->trueValue('1')
+            ->falseValue('0'),
             Image::make('Imagen','image')->disk('public')->hideFromIndex(),
-            BelongsTo::make('Categoria', 'product_category','App\Nova\ProductCategory'),
         ];
     }
 
