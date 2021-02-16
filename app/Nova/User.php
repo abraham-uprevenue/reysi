@@ -7,6 +7,8 @@ use Laravel\Nova\Fields\Gravatar;
 use Laravel\Nova\Fields\ID;
 use Laravel\Nova\Fields\Password;
 use Laravel\Nova\Fields\Text;
+use Laravel\Nova\Fields\BelongsToMany;
+use Silvanite\NovaToolPermissions\Role;
 
 class User extends Resource
 {
@@ -16,6 +18,14 @@ class User extends Resource
      * @var string
      */
     public static $model = \App\Models\User::class;
+
+    public static $group = 'Administración';
+
+
+    public static function label() {
+
+        return 'Usuarios';
+       }
 
     /**
      * The single value that should be used to represent the resource when being displayed.
@@ -60,6 +70,8 @@ class User extends Resource
                 ->onlyOnForms()
                 ->creationRules('required', 'string', 'min:8')
                 ->updateRules('nullable', 'string', 'min:8'),
+            
+            BelongsToMany::make('Roles', 'roles', Role::class),
         ];
     }
 
